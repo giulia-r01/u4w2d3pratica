@@ -70,13 +70,13 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order{" +
-                "id=" + id +
-                ", status='" + status + '\'' +
-                ", orderDate=" + orderDate +
-                ", deliveryDate=" + deliveryDate +
-                ", products=" + products +
-                ", customer=" + customer +
+        return "\nOrder{" +
+                "\nid=" + id +
+                ", \nstatus='" + status + '\'' +
+                ", \norderDate=" + orderDate +
+                ", \ndeliveryDate=" + deliveryDate +
+                ", \nproducts=" + products +
+                ", \ncustomer=" + customer +
                 '}';
     }
 }
